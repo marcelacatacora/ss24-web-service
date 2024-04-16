@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Avatar Creation Tool</h1>
+
+<form action="/create-avatar" method="post" style="display:flex;flex-direction: column; gap: 1rem; max-width: 10rem ">
+
+<label for="avatarName">Avatar Name:</label>
+<input type="text" id="avatarName" name="avatarName">
+
+<label for="childAge">Child Age:</label>
+<input type="number" id="childAge" name="childAge">
+
+<label for="skinColor">Skin Color:</label>
+<input type="color" id="skinColor" name="skinColor";>
+
+<label for="hairStyle">Hairstyle:</label>
+    <select id="hairStyle" name="hairStyle">
+        <option value="1">Curly</option>
+        <option value="2">Straight</option>
+        <option value="3">Wavy</option>
+    </select>
+
+<label for="headShape">Head Shape:</label>
+    <select id="headShape" name="headShape">
+        <option value="1">Circular</option>
+        <option value="2">Oval</option>
+    </select>
+
+<label for="upperClothing">Upper clothing:</label>
+    <select id="upperClothing" name="upperClothing">
+        <option value="1">T-shirt</option>
+        <option value="2">Jacket</option>
+        <option value="3">Shirt</option>
+    </select>
+
+<label for="lowerclothing">Lower clothing:</label>
+    <select id="lowerclothing" name="lowerclothing">
+        <option value="1">Jeans</option>
+        <option value="2">Short</option>
+        <option value="3">Skirt</option>
+    </select>
+
+<input type="submit" value="Create">
+</div>
+</form>
+</body>
+</html>
